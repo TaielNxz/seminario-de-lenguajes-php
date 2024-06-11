@@ -1,0 +1,6 @@
+Para iniciar el proyecto se debe tener instalado XAMPP 
+
+Una vez instalado el XAMPP se creara una carpeta "xampp"
+se debe colocar la carpeta con el proyecto dentro de la carpeta "htdocs", en mi caso la ruta seria esta:
+
+C:\xampp\htdocs

@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    background-color:wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea{
+    resize:none;
+    border: none;
+}
+
+/* ====================================================================
+                                 Header
+=======================================================================*/
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+}
+
+.header h1 {
+    text-align: center;
+    color: rgb(204, 36, 36);
+}
+
+
+/* ====================================================================
+                            Formulario index
+=======================================================================*/
+
+.formulario {
+    background-color: rgb(241, 207, 143);
+    padding: 10px;
+}
+
+.formulario fieldset {
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario .campo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.formulario label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.formulario input {
+    font-size: 18px;
+    padding: 2px;
+}
+
+.formulario select {
+    width: 200px;
+    font-size: 18px;
+    height: auto;
+    padding: 2px;
+}
+
+.formulario input[type="submit"] {
+    font-size: 18px;
+    width: 100px;
+}
+
+.formulario input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mensaje-exito {
+    padding: 10px;
+    background-color: #37a222;
+    text-align: center;
+    margin: 0;
+}
+
+/* ====================================================================                         
+                            Formulario alta pedido
+=======================================================================*/
+
+.formulario-alta {
+    background-color: rgb(241, 207, 143);
+    width: 50%;
+    margin: 30px auto 100px auto;
+    padding: 30px;
+}
+
+.formulario-alta fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario-alta .campo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.formulario-alta label {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.formulario-alta select {
+    font-size: 18px;
+    height: 40px;
+    border: none;
+}
+
+.formulario-alta option {
+    font-size: 18px;
+}
+
+.formulario-alta textarea {
+    font-size: 18px;
+    height: 200px;
+}
+
+.formulario-alta input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.formulario-alta .campo-validacion {
+    background-color: rgb(204, 36, 36);
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+}
+
+.formulario-alta .mensaje-error {
+    background-color: rgb(204, 36, 36);
+    padding: 20px;
+    text-align: center;
+}
+
+/* ====================================================================
+                            Lista con datos
+=======================================================================*/
+
+.pedidos {
+    background-color:rgb(241, 207, 143);
+    text-align: center;
+    padding: 15px 0;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+    height: auto;
+}
+
+.tabla-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 70%;
+    height: auto;
+}
+
+.columna {
+    margin: 0 10px 0 10px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 70% 30%;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 15px; 
+    background-color: rgb(241, 207, 143);
+    border-radius: 10%;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 20px 20px;
+}
+
+.card-texto p {
+    margin: 2px auto;
+}
+
+.card-texto .nombre  {
+    font-size: 20px;
+}
+
+.card-texto .tipo  {
+    font-size: 15px;
+}
+
+.agregar {
+    display: flex;
+}
+
+.agregar button {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.agregar a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ====================================================================
+                                Footer
+=======================================================================*/
+
+.footer {
+    background-color: rgb(241, 207, 143);
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
